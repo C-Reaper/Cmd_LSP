@@ -1,0 +1,39 @@
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ContinuationIndentWidth: 4
+ObjCBlockIndentWidth: 4
+
+IndentCaseLabels: false
+IndentGotoLabels: true
+
+BreakBeforeBraces: Custom
+
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterControlStatement: Never
+  AfterFunction: false
+  AfterStruct: false
+  AfterEnum: false
+  AfterUnion: false
+  BeforeElse: false
+  BeforeWhile: false
+  IndentBraces: false
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+DerivePointerAlignment: false
+
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Empty
+
+ColumnLimit: 160
+
+SortIncludes: Never
+ReflowComments: false
+
+MaxEmptyLinesToKeep: 2

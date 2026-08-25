@@ -1,0 +1,7 @@
+[
+    {
+        "directory": "/home/codeleaded/Hecke/C/Cmd_LSP",
+        "command": "gcc -std=c17 src/Main.c -o build/Main -I/home/codeleaded/System/Static/Library -I/home/codeleaded/System/Static/Container",
+        "file": "/home/codeleaded/Hecke/C/Cmd_LSP/src/Main.c"
+    }
+]
